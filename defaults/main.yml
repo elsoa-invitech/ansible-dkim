@@ -43,6 +43,8 @@ dkim_safe_keys: true
 ## Other currently possible keylengths: 1024 or 4096.
 dkim_rsa_keylen: 2048
 
+dkim_signature_algorithm: "rsa-sha256"
+
 ## Select your MTA (postfix or sendmail)
 dkim_mta: postfix
 

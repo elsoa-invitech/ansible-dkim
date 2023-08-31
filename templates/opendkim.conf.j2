@@ -16,7 +16,7 @@ RequireSafeKeys         {{ dkim_safe_keys }}
 
 Mode                    sv
 PidFile                 /var/run/opendkim/opendkim.pid
-SignatureAlgorithm      rsa-sha256
+SignatureAlgorithm      {{ dkim_signature_algorithm }}
 
 UserID                  opendkim:opendkim
 
