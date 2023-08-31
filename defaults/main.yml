@@ -11,6 +11,9 @@ dkim_user: opendkim
 dkim_group: opendkim
 
 ### DKIM  configuration variables
+
+dkim_port: 12301
+
 ## The "selector" for opendkim keys and DNS records generation
 dkim_selector: email
 
