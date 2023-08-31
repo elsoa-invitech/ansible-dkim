@@ -37,6 +37,8 @@ dkim_trustedhosts:
 ## Whether opendkim uses the same key for all domains or one key per domain
 dkim_same_key: true
 
+dkim_safe_keys: true
+
 ## When generating key with opendkim-gkeygen, default RSA keylen is 2048
 ## Other currently possible keylengths: 1024 or 4096.
 dkim_rsa_keylen: 2048

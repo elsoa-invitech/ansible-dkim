@@ -12,6 +12,7 @@ ExternalIgnoreList      refile:/etc/opendkim/TrustedHosts
 InternalHosts           refile:/etc/opendkim/TrustedHosts
 KeyTable                refile:/etc/opendkim/KeyTable
 SigningTable            refile:/etc/opendkim/SigningTable
+RequireSafeKeys         {{ dkim_safe_keys }}
 
 Mode                    sv
 PidFile                 /var/run/opendkim/opendkim.pid
